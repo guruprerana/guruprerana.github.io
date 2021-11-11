@@ -1,1 +1,0 @@
-# leguru discovery spot
