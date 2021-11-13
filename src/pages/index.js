@@ -8,10 +8,14 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { Helmet } from "react-helmet";
 
 const IndexPage = () => {
   return (
     <main className="bg-accent">
+      <Helmet>
+        <title>Guru Shabadi</title>
+      </Helmet>
       <div className="container max-w-5xl mx-auto px-5">
         <div className="xl:flex xl:flex-row items-center text-center">
           <StaticImage
@@ -108,9 +112,17 @@ const IndexPage = () => {
         <p className="text-accent-dark pt-5 text-lg">
           When I am not verifying automated systems around me, I delve deeply
           into software development and I am currently working with a team of 4
-          brilliant innovators on building Weave! Lastly, education is something
-          I am deeply passionate about and a long term goal of mine is to work
-          on improving computer science education and outreach.
+          brilliant innovators on building{" "}
+          <a
+            href="#weave"
+            rel="noopener noreferrer"
+            className="text-primary hover:opacity-50"
+          >
+            Weave
+          </a>
+          ! Lastly, education is something I am deeply passionate about and a
+          long term goal of mine is to work on improving computer science
+          education and outreach.
         </p>
         <h3 className="text-primary text-4xl mt-8">What's up with me!</h3>
         <ul className="list-inside list-disc text-lg text-accent-dark mt-3">
@@ -288,7 +300,7 @@ const IndexPage = () => {
             Fasfox.
           </a>
         </p>
-        <h4 className="text-secondary text-2xl mt-4">
+        <h4 className="text-secondary text-2xl mt-4" id="weave">
           Weave (October 2020 - Present)
         </h4>
         <center>
