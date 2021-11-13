@@ -82,7 +82,16 @@ const IndexPage = () => {
           . I am fascinated by the topics of safe automation and safety in
           human-robot interactions. I hope to work in these areas during my
           graduate studies. I am also interested in formal verification of AI
-          systems trained with machine learning algorithms.
+          systems trained with machine learning algorithms. My CV is{" "}
+          <a
+            href="https://github.com/guruprerana/guruprerana.github.io/raw/source/static/cv.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary hover:opacity-50"
+          >
+            here
+          </a>
+          .
         </p>
         <p className="text-accent-dark pt-5 text-lg">
           When I am not verifying automated systems around me, I delve deeply
@@ -103,7 +112,8 @@ const IndexPage = () => {
             >
               reunion
             </a>{" "}
-            of researchers from around France working in similar areas at{" "}
+            of researchers from around France working in similar areas which
+            took place at{" "}
             <a
               href="https://www.lix.polytechnique.fr/"
               target="_blank"
@@ -112,7 +122,16 @@ const IndexPage = () => {
             >
               LIX
             </a>
-            ! Find my slides here or a recording here.
+            ! Find my slides{" "}
+            <a
+              href="https://github.com/guruprerana/guruprerana.github.io/raw/source/static/communication-delays-cps.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:opacity-50"
+            >
+              here
+            </a>{" "}
+            or a recording here.
           </li>
           <li>yoo</li>
         </ul>
