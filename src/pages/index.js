@@ -1,182 +1,154 @@
+import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-};
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-};
-const headingAccentStyles = {
-  color: "#663399",
-};
-const paragraphStyles = {
-  marginBottom: 48,
-};
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-};
-const listStyles = {
-  marginBottom: 96,
-  paddingLeft: 0,
-};
-const listItemStyles = {
-  fontWeight: 300,
-  fontSize: 24,
-  maxWidth: 560,
-  marginBottom: 30,
-};
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faLinkedin,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 
-const linkStyle = {
-  color: "#8954A8",
-  fontWeight: "bold",
-  fontSize: 16,
-  verticalAlign: "5%",
-};
-
-const docLinkStyle = {
-  ...linkStyle,
-  listStyleType: "none",
-  marginBottom: 24,
-};
-
-const descriptionStyle = {
-  color: "#232129",
-  fontSize: 14,
-  marginTop: 10,
-  marginBottom: 0,
-  lineHeight: 1.25,
-};
-
-const docLink = {
-  text: "Documentation",
-  url: "https://www.gatsbyjs.com/docs/",
-  color: "#8954A8",
-};
-
-const badgeStyle = {
-  color: "#fff",
-  backgroundColor: "#088413",
-  border: "1px solid #088413",
-  fontSize: 11,
-  fontWeight: "bold",
-  letterSpacing: 1,
-  borderRadius: 4,
-  padding: "4px 6px",
-  display: "inline-block",
-  position: "relative",
-  top: -2,
-  marginLeft: 10,
-  lineHeight: 1,
-};
-
-// data
-const links = [
-  {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial/",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-    color: "#E95800",
-  },
-  {
-    text: "How to Guides",
-    url: "https://www.gatsbyjs.com/docs/how-to/",
-    description:
-      "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
-    color: "#1099A8",
-  },
-  {
-    text: "Reference Guides",
-    url: "https://www.gatsbyjs.com/docs/reference/",
-    description:
-      "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
-    color: "#BC027F",
-  },
-  {
-    text: "Conceptual Guides",
-    url: "https://www.gatsbyjs.com/docs/conceptual/",
-    description:
-      "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
-    color: "#0D96F2",
-  },
-  {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-    color: "#8EB814",
-  },
-  {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
-    badge: true,
-    description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-    color: "#663399",
-  },
-];
-
-// markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <title>Home Page</title>
-      <h1 style={headingStyles}>
-        Congratulations
-        <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
-        <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
-        </span>
-      </h1>
-      <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time.{" "}
-        <span role="img" aria-label="Sunglasses smiley emoji">
-          😎
-        </span>
-      </p>
-      <ul style={listStyles}>
-        <li style={docLinkStyle}>
-          <a
-            style={linkStyle}
-            href={`${docLink.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-          >
-            {docLink.text}
-          </a>
-        </li>
-        {links.map((link) => (
-          <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
-            <span>
+    <main className="bg-accent">
+      <div className="container mx-auto px-10">
+        <div className="flex flex-row">
+          <StaticImage
+            src="../images/mugshot.jpeg"
+            className="rounded-full h-48 w-48 md:h-64 md:w-64 my-4"
+          />
+          <div className="flex-grow flex flex-col justify-center p-10">
+            <h1 className="inline text-4xl md:text-6xl text-secondary font-medium">
+              Guruprerana Shabadi
+            </h1>
+            <h2 className="inline text-xl md:text-2xl text-accent-dark font-medium mt-1">
+              ...you can call me{" "}
+              <b className="text-primary font-normal">Guru!</b>
+            </h2>
+            <h2 className="inline text-2xl md:text-3xl text-accent-dark font-medium mt-3">
+              Third year undergraduate student at Ecole Polytechnique
+            </h2>
+            <div className="mt-4">
               <a
-                style={linkStyle}
-                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
+                href="https://www.linkedin.com/in/guruprerana-shabadi-499743a/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                {link.text}
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  size="2x"
+                  className="hover:opacity-50"
+                />
               </a>
-              {link.badge && (
-                <span style={badgeStyle} aria-label="New Badge">
-                  NEW!
-                </span>
-              )}
-              <p style={descriptionStyle}>{link.description}</p>
-            </span>
+              <a
+                href="https://github.com/guruprerana"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  size="2x"
+                  className="ml-2 hover:opacity-50"
+                />
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCELz6jBUPW80sNSBeHZEn4Q"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faYoutube}
+                  size="2x"
+                  className="ml-2 hover:opacity-50"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <p className="text-accent-dark pt-10 text-lg">
+          I am a third year undergraduate student at École Polytechnique
+          studying mathematics and computer science. My current research
+          interest lies in formal methods for cyber-physical systems (CPS), a
+          topic I am actively thinking about and working on under the guidance
+          of{" "}
+          <a
+            href="http://www.sergiomover.eu/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary hover:opacity-50"
+          >
+            Prof. Sergio Mover
+          </a>
+          . I am fascinated by the topics of safe automation and safety in
+          human-robot interactions. I hope to work in these areas during my
+          graduate studies. I am also interested in formal verification of AI
+          systems trained with machine learning algorithms.
+        </p>
+        <p className="text-accent-dark pt-5 text-lg">
+          When I am not verifying automated systems around me, I delve deeply
+          into software development and I am currently working with a team of 4
+          brilliant innovators on building Weave! Lastly, education is something
+          I am deeply passionate about and a long term goal of mine is to work
+          on improving computer science education and outreach.
+        </p>
+        <h3 className="text-primary text-4xl mt-8">What's up with me!</h3>
+        <ul className="list-inside list-disc text-lg text-accent-dark mt-3">
+          <li>
+            October 11, 2021: I presented a talk on my current research at a{" "}
+            <a
+              href="https://www.lix.polytechnique.fr/~goubault/aid-cieds-2021.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:opacity-50"
+            >
+              reunion
+            </a>{" "}
+            of researchers from around France working in similar areas at{" "}
+            <a
+              href="https://www.lix.polytechnique.fr/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:opacity-50"
+            >
+              LIX
+            </a>
+            ! Find my slides here or a recording here.
           </li>
-        ))}
-      </ul>
-      <img
-        alt="Gatsby G Logo"
-        src="data:image/svg+xml,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2a10 10 0 110 20 10 10 0 010-20zm0 2c-3.73 0-6.86 2.55-7.75 6L14 19.75c3.45-.89 6-4.02 6-7.75h-5.25v1.5h3.45a6.37 6.37 0 01-3.89 4.44L6.06 9.69C7 7.31 9.3 5.63 12 5.63c2.13 0 4 1.04 5.18 2.65l1.23-1.06A7.959 7.959 0 0012 4zm-8 8a8 8 0 008 8c.04 0 .09 0-8-8z' fill='%23639'/%3E%3C/svg%3E"
-      />
+          <li>yoo</li>
+        </ul>
+        <h3 className="text-primary text-4xl mt-8">Current Research</h3>
+        <h4 className="text-secondary text-2xl mt-4">
+          Accounting for communication delays in a hybrid system - advised by{" "}
+          <a
+            href="http://www.sergiomover.eu/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary hover:opacity-50"
+          >
+            Prof. Sergio Mover
+          </a>{" "}
+          (June 2021 - Present)
+        </h4>
+        <p className="text-accent-dark pt-2 text-lg">
+          Cyber-physical systems use communication protocols to gather
+          information on their environments in order to react to changes around
+          them. However, in practice these protocols are far from perfect and
+          can have non-negligible delays in relaying state information, i.e.,
+          there might be a delay in observing the current value of a state
+          variable. To further motivate the study of these delays, we explore
+          the case study of a collision avoidance protocol with a group of
+          robots navigating in space while avoiding collision. Here, we cannot
+          ensure that each robot has exact information of the other robots in
+          the system at every instant of time. To model these delays, we revisit
+          the class of hybrid automata called lazy hybrid automata in the
+          continuous, instead of discrete, semantic. Lazy hybrid automata model
+          non-deterministic delays in observing the value of “input variables”
+          used in invariants and guard conditions. We then discuss some results
+          we have obtained on the expressiveness of some restricted classes of
+          (continuous) lazy hybrid automata by providing their translations into
+          classical hybrid automata.
+        </p>
+      </div>
     </main>
   );
 };
