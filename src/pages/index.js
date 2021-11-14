@@ -158,8 +158,8 @@ const IndexPage = () => {
             or a recording here.
           </li>
           <li>
-            I am currently in the process of formally writing the research I
-            have done and presenting my proofs. Find the latest version{" "}
+            I am currently in the process of formally writing down my research
+            and presenting my proofs. Find the latest version{" "}
             <a
               href="https://github.com/guruprerana/guruprerana.github.io/raw/source/static/report-communication-delays.pdf"
               target="_blank"
@@ -278,7 +278,8 @@ const IndexPage = () => {
           >
             ENS, Paris
           </a>{" "}
-          on neural network verification!
+          on neural network verification towards writing my undergraduate
+          thesis!
         </p>
         <center>
           <StaticImage src="../images/nn-safe.png" className="mt-5" />
@@ -307,8 +308,8 @@ const IndexPage = () => {
           <StaticImage src="../images/weave-logo.png" className="mt-5 w-48" />
         </center>
         <p className="text-accent-dark pt-5 text-lg">
-          Since 1 year, I have been working with 4 other motivated friends (who
-          also happen to be brilliant entrepreneurs) from my university on
+          For over a year, I have been working with 4 other motivated friends
+          (who also happen to be brilliant entrepreneurs) from my university on
           building Weave: a socio-professional networking platform tailor-made
           to the needs of the artistic and cultural industries! I lead the
           development team at Weave.
