@@ -95,8 +95,9 @@ const IndexPage = () => {
           >
             Prof. Sergio Mover
           </a>
-          . I am fascinated by the topics of safe automation and safety in
-          human-robot interactions. I hope to work in these areas during my
+          . I am fascinated by the topics of safety in cyber-physical social
+          systems (CPSS) which involve complex interactions between multiple
+          automated systems and humans. I hope to work in this area during my
           graduate studies. I am also interested in formal verification of AI
           systems trained with machine learning algorithms. My CV is{" "}
           <a
