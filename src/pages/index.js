@@ -98,8 +98,9 @@ const IndexPage = () => {
           . I am fascinated by the topic of safety in cyber-physical social
           systems (CPSS) which involve complex interactions between multiple
           automated systems and humans. I hope to work in this area during my
-          graduate studies. I am also interested in formal verification of AI
-          systems trained with machine learning algorithms. My CV is{" "}
+          graduate studies. I am also interested in formal verification of
+          controller components trained with machine learning algorithms. My CV
+          is{" "}
           <a
             href="https://github.com/guruprerana/cv/raw/master/shabadi.pdf"
             target="_blank"
