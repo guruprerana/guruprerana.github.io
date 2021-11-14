@@ -100,7 +100,7 @@ const IndexPage = () => {
           graduate studies. I am also interested in formal verification of AI
           systems trained with machine learning algorithms. My CV is{" "}
           <a
-            href="https://github.com/guruprerana/guruprerana.github.io/raw/source/static/cv.pdf"
+            href="https://github.com/guruprerana/cv/raw/master/shabadi.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary hover:opacity-50"
