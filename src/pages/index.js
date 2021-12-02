@@ -112,7 +112,7 @@ const IndexPage = () => {
           .
         </p>
         <p className="text-accent-dark pt-5 text-lg">
-          When I am not verifying automated systems around me, I delve deeply
+          When I am not verifying autonomous systems around me, I delve deeply
           into software development and I am currently working with a team of 4
           brilliant innovators on building{" "}
           <a
@@ -155,9 +155,9 @@ const IndexPage = () => {
               rel="noopener noreferrer"
               className="text-primary hover:opacity-50"
             >
-              here
+              here.
             </a>{" "}
-            or a recording here.
+            A (re-)recording of the talk is coming very soon!
           </li>
           <li>
             I am currently in the process of formally writing down my research
@@ -219,9 +219,9 @@ const IndexPage = () => {
               rel="noopener noreferrer"
               className="text-primary hover:opacity-50"
             >
-              here
+              here.
             </a>{" "}
-            or me presenting my work here.
+            A (re-)recording of the talk is coming very soon!
           </li>
           <li>
             [IN PROGRESS] Latest version of my formal report can be found{" "}
