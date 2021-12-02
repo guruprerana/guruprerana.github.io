@@ -67,17 +67,6 @@ const IndexPage = () => {
                   className="ml-2 hover:opacity-50"
                 />
               </a>
-              <a
-                href="https://www.youtube.com/channel/UCELz6jBUPW80sNSBeHZEn4Q"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faYoutube}
-                  size="2x"
-                  className="ml-2 hover:opacity-50"
-                />
-              </a>
             </div>
           </div>
         </div>
