@@ -84,12 +84,8 @@ const IndexPage = () => {
           >
             Prof. Sergio Mover
           </a>
-          . I am fascinated by the topic of safety in cyber-physical social
-          systems (CPSS) which involve complex interactions between multiple
-          automated systems and humans. I hope to work in this area during my
-          graduate studies. I am also interested in formal verification of
-          controller components trained with machine learning algorithms. My CV
-          is{" "}
+          . I am also interested in formal verification of controller components
+          trained with machine learning algorithms. My CV is{" "}
           <a
             href="https://github.com/guruprerana/cv/raw/master/shabadi.pdf"
             target="_blank"
@@ -98,7 +94,9 @@ const IndexPage = () => {
           >
             here
           </a>
-          .
+          . My long term goal is to build a world where autonomous systems are
+          deeply integrated with the environment and where mutual interactions
+          are safe and fair.
         </p>
         <p className="text-accent-dark pt-5 text-lg">
           When I am not verifying autonomous systems around me, I delve deeply
@@ -149,8 +147,8 @@ const IndexPage = () => {
             A (re-)recording of the talk is coming very soon!
           </li>
           <li>
-            I am currently in the process of formally writing down my research
-            and presenting my proofs. Find the latest version{" "}
+            [IN PROGRESS] Find the latest version of the report of my work on
+            delays in hybrid systems{" "}
             <a
               href="https://github.com/guruprerana/guruprerana.github.io/raw/source/static/report-communication-delays.pdf"
               target="_blank"
