@@ -246,7 +246,8 @@ const IndexPage = () => {
           classical hybrid automata.
         </p>
         <h4 className="text-secondary text-2xl mt-4">
-          Safety verification of neural networks (Starting January 2022)
+          Effective Abstractions for Neural Network Verification (Starting
+          January 2022)
         </h4>
         <p className="text-accent-dark pt-5 text-lg">
           From January 2022, I will be working with{" "}
@@ -267,8 +268,8 @@ const IndexPage = () => {
           >
             ENS, Paris
           </a>{" "}
-          on neural network verification towards writing my undergraduate
-          thesis!
+          on the design of effective abstractions for neural network
+          verification towards writing my undergraduate thesis!
         </p>
         <center>
           <StaticImage src="../images/nn-safe.png" className="mt-5" />
