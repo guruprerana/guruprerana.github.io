@@ -154,8 +154,8 @@ const IndexPage = () => {
             </a>
           </li>
           <li>
-            [IN PROGRESS] Find the latest version of the report of my work on
-            delays in hybrid systems{" "}
+            Find the latest version of the report of my work on delays in hybrid
+            systems{" "}
             <a
               href="https://github.com/guruprerana/guruprerana.github.io/raw/source/static/report-communication-delays.pdf"
               target="_blank"
@@ -226,7 +226,7 @@ const IndexPage = () => {
             </a>
           </li>
           <li>
-            [IN PROGRESS] Latest version of my formal report can be found{" "}
+            Latest version of my formal report can be found{" "}
             <a
               href="https://github.com/guruprerana/guruprerana.github.io/raw/source/static/report-communication-delays.pdf"
               target="_blank"
