@@ -84,8 +84,7 @@ const IndexPage = () => {
           >
             Prof. Sergio Mover
           </a>
-          . I am also interested in formal verification of controller components
-          trained with machine learning algorithms. My CV is{" "}
+          . My CV is{" "}
           <a
             href="https://github.com/guruprerana/cv/raw/master/shabadi.pdf"
             target="_blank"
@@ -144,7 +143,15 @@ const IndexPage = () => {
             >
               here.
             </a>{" "}
-            A (re-)recording of the talk is coming very soon!
+            A (re-)recording of the talk is{" "}
+            <a
+              href="https://youtu.be/mUKBk0PEpVs"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:opacity-50"
+            >
+              here!
+            </a>
           </li>
           <li>
             [IN PROGRESS] Find the latest version of the report of my work on
@@ -208,7 +215,15 @@ const IndexPage = () => {
             >
               here.
             </a>{" "}
-            A (re-)recording of the talk is coming very soon!
+            A (re-)recording of the talk is{" "}
+            <a
+              href="https://youtu.be/mUKBk0PEpVs"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:opacity-50"
+            >
+              here!
+            </a>
           </li>
           <li>
             [IN PROGRESS] Latest version of my formal report can be found{" "}
@@ -234,20 +249,19 @@ const IndexPage = () => {
           there might be a delay in observing the current value of a state
           variable. To further motivate the study of these delays, we explore
           the case study of a collision avoidance protocol with a group of
-          robots navigating in space while avoiding collision. Here, we cannot
-          ensure that each robot has exact information of the other robots in
-          the system at every instant of time. To model these delays, we revisit
-          the class of hybrid automata called lazy hybrid automata in the
-          continuous, instead of discrete, semantic. Lazy hybrid automata model
-          non-deterministic delays in observing the value of “input variables”
-          used in invariants and guard conditions. We then discuss some results
-          we have obtained on the expressiveness of some restricted classes of
-          (continuous) lazy hybrid automata by providing their translations into
-          classical hybrid automata.
+          robots navigating in space while avoiding collisions. Here, we cannot
+          ensure that each robot has complete information about the state of the
+          other robots at every instant of time. To model these delays, we
+          revisit the class of hybrid automata called lazy hybrid automata in
+          the continuous, instead of discrete, semantic. Lazy hybrid automata
+          model nondeterministic delays in observing the value of state
+          variables used in invariants and guard conditions. We then discuss the
+          results we have obtained on the expressiveness of some restricted
+          classes of (continuous) lazy hybrid automata by providing their
+          translations into classical hybrid automata.
         </p>
         <h4 className="text-secondary text-2xl mt-4">
-          Effective Abstractions for Neural Network Verification (Starting
-          January 2022)
+          Static analysis of data science software (Starting January 2022)
         </h4>
         <p className="text-accent-dark pt-5 text-lg">
           From January 2022, I will be working with{" "}
@@ -268,12 +282,9 @@ const IndexPage = () => {
           >
             ENS, Paris
           </a>{" "}
-          on the design of effective abstractions for neural network
-          verification towards writing my undergraduate thesis!
+          on the design of abstractions to facilitate static analysis of data
+          science software towards writing my undergraduate thesis!
         </p>
-        <center>
-          <StaticImage src="../images/nn-safe.png" className="mt-5" />
-        </center>
         <h3 className="text-primary text-4xl mt-8">Software Development</h3>
         <p className="text-accent-dark pt-5 text-lg">
           In my free time I love getting involved in software development and
