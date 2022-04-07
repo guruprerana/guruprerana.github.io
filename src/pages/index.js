@@ -182,7 +182,7 @@ const IndexPage = () => {
             <div>
               <h4 className="text-secondary text-2xl mt-4 hover:opacity-50">
                 Accounting for communication delays in a hybrid system (June
-                2021 - Present)
+                2021 - December 2021)
               </h4>
               <p className="text-accent-dark pt-2 text-lg">
                 Worked under{" "}
