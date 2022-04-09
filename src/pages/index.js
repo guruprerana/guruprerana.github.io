@@ -267,7 +267,7 @@ const IndexPage = () => {
           building Anemone: a socio-professional networking platform tailor-made
           to the needs of the artistic and cultural industries! I lead the
           development team at Anemone. We are launching our beta soon! Check out
-          our <Hyperlink href={"anemone.paris"}>website</Hyperlink>!
+          our <Hyperlink href={"https://www.anemone.paris/"}>website</Hyperlink>!
         </p>
         <center>
           <StaticImage
