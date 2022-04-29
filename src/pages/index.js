@@ -60,13 +60,14 @@ const IndexPage = () => {
           I am a third year undergraduate student at École Polytechnique
           studying mathematics and computer science. I am interested in
           everything formal methods, cyber-physical systems, safe automation,
-          logic, programming languages, static analysis, homotopy type
-          theory(?), and category theory. Don't worry I don't{" "}
-          <i>actually understand</i> everything I mentioned there (yet).
-          Basically, I am curious about way too many things, and still trying to
-          navigate the world of research! So far, I have worked in the areas of{" "}
-          <b>cyber-physical systems</b> and <b>abstract interpretation.</b>{" "}
-          Hoping to discover the other topics one by one! My CV is{" "}
+          neural program synthesis, neurosymbolic programming, logic,
+          programming languages, static analysis, homotopy type theory(?), and
+          category theory. Don't worry I don't <i>actually understand</i>{" "}
+          everything I mentioned there (yet). Basically, I am curious about way
+          too many things, and still trying to navigate the world of research!
+          So far, I have worked in the areas of <b>cyber-physical systems</b>{" "}
+          and <b>abstract interpretation.</b> Hoping to discover the other
+          topics one by one! My CV is{" "}
           <Hyperlink href="https://github.com/guruprerana/cv/raw/master/shabadi.pdf">
             here
           </Hyperlink>
@@ -267,7 +268,8 @@ const IndexPage = () => {
           building Anemone: a socio-professional networking platform tailor-made
           to the needs of the artistic and cultural industries! I lead the
           development team at Anemone. We are launching our beta soon! Check out
-          our <Hyperlink href={"https://www.anemone.paris/"}>website</Hyperlink>!
+          our <Hyperlink href={"https://www.anemone.paris/"}>website</Hyperlink>
+          !
         </p>
         <center>
           <StaticImage
