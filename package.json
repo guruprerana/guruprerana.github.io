@@ -28,7 +28,8 @@
     "react": "^18.2.0",
     "react-collapsible": "^2.10.0",
     "react-dom": "^18.2.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-latex": "^2.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.15",

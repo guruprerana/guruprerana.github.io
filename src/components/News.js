@@ -14,7 +14,12 @@ const data = [
           }
         >
           here!
-        </Hyperlink>
+        </Hyperlink>{" "}
+        I also created some{" "}
+        <Hyperlink samePage href={"/smol-strats"}>
+          cool animations
+        </Hyperlink>{" "}
+        of our synthesized policies using manim.
       </>
     ),
   },
