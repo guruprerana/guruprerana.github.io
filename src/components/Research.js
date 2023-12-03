@@ -33,13 +33,13 @@ function Research() {
         </p>
         <div className="flex flex-row text-lg mt-1">
           <Hyperlink
-            href="https://github.com/guruprerana/guruprerana.github.io/raw/source/static/report-m1-internship.pdf"
             className="ml-1"
+            href="https://github.com/guruprerana/guruprerana.github.io/raw/source/static/popl24src.pdf"
           >
-            [Report]
+            [PDF]
           </Hyperlink>
           <Hyperlink className="ml-1" samePage href={"/smol-strats"}>
-            [Abstract]
+            [Abstract and some animations]
           </Hyperlink>
         </div>
       </div>

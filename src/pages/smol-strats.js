@@ -30,10 +30,10 @@ function SmolStrats() {
         </p>
         <div className="flex flex-row text-lg mt-1">
           <Hyperlink
-            href="https://github.com/guruprerana/guruprerana.github.io/raw/source/static/report-m1-internship.pdf"
+            href="https://github.com/guruprerana/guruprerana.github.io/raw/source/static/popl24src.pdf"
             className="ml-1"
           >
-            [Report]
+            [PDF]
           </Hyperlink>
         </div>
       </div>

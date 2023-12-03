@@ -3,6 +3,20 @@ import Hyperlink from "./Hyperlink";
 
 const data = [
   {
+    name: "Towards programmatic reinforcement learning: the case of deterministic gridworlds",
+    authors: "Guruprerana Shabadi",
+    paperLink:
+      "https://github.com/guruprerana/guruprerana.github.io/raw/source/static/popl24src.pdf",
+    venue: "Student research competition at POPL 2024",
+    links: [
+      {
+        name: "PDF",
+        url: "https://github.com/guruprerana/guruprerana.github.io/raw/source/static/popl24src.pdf",
+      },
+    ],
+    year: 2024,
+  },
+  {
     name: "Static Analysis of Data Transformations in Jupyter Notebooks",
     authors: "Luca Negrini, Guruprerana Shabadi, and Caterina Urban",
     paperLink:

@@ -3,6 +3,22 @@ import Hyperlink from "./Hyperlink";
 
 const data = [
   {
+    date: "December 2, 2023",
+    content: (
+      <>
+        My work on programmatic reinforcement learning was accepted at the
+        student research competition at POPL 2024. Read the 3 page abstract
+        summarizing my work <Hyperlink
+          href={
+            "https://github.com/guruprerana/guruprerana.github.io/raw/source/static/popl24src.pdf"
+          }
+        >
+          here.
+        </Hyperlink>
+      </>
+    ),
+  },
+  {
     date: "September 5, 2023",
     content: (
       <>
