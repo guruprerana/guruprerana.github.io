@@ -3,6 +3,19 @@ import Hyperlink from "./Hyperlink";
 
 const data = [
   {
+    name: "Theoretical foundations for programmatic reinforcement learning",
+    authors: "Guruprerana Shabadi, Nathanaël Fijalkow, Théo Matricon",
+    paperLink: "https://arxiv.org/abs/2402.11650",
+    venue: "Preprint",
+    links: [
+      {
+        name: "PDF",
+        url: "https://arxiv.org/abs/2402.11650"
+      }
+    ],
+    year: 2024
+  },
+  {
     name: "Towards programmatic reinforcement learning: the case of deterministic gridworlds",
     authors: "Guruprerana Shabadi",
     paperLink:
