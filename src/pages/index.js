@@ -32,7 +32,8 @@ const IndexPage = () => {
             ...you can call me <b className="text-primary font-normal">Guru!</b>
           </h2>
           <h2 className="inline text-2xl md:text-3xl text-accent-dark font-medium mt-3">
-            Master's student in Computer Science at Ecole Polytechnique
+            Master's student in Computer Science at École Polytechnique &
+            Research Intern at IMDEA Software Institute, Madrid
           </h2>
           <div className="mt-4 flex flex-row justify-center items-center">
             <Hyperlink
@@ -95,23 +96,28 @@ const IndexPage = () => {
       </p>
       <p className="text-accent-dark pt-1 text-lg">
         As a result, I am also interested in all topics that play a role in
-        these domains including (but not restricted to) model checking,
+        these domains including (but not restricted to) logic, model checking,
         reinforcement learning, game theory, control, cyber-physical systems,
         PL, NLP etc.{" "}
       </p>
       <p className="text-accent-dark pt-2 text-lg">
         {" "}
-        In my most recent internship with{" "}
+        I am currently an intern at IMDEA Software Institute, Madrid working
+        with{" "}
+        <Hyperlink href={"https://alessiomansutti.github.io/"}>
+          Alessio Mansutti
+        </Hyperlink>{" "}
+        on arithmetic logic. Previously, I worked with{" "}
         <Hyperlink href={"https://games-automata-play.com/"}>
           Nathanaël Fijalkow
         </Hyperlink>
-        , I worked on synthesizing programmatic policies for (a small subset of)
+        {" "}on worked on synthesizing programmatic policies for (a small subset of)
         markov decision processes (MDPs) starting from programmatic
         representations of these MDPs (visualized by some{" "}
         <Hyperlink samePage href={"/smol-strats"}>
           cool animations
         </Hyperlink>
-        ). Previously, I worked with{" "}
+        ). Before that, I worked with{" "}
         <Hyperlink href="https://caterinaurban.github.io/">
           Caterina Urban
         </Hyperlink>{" "}

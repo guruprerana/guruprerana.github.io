@@ -3,12 +3,25 @@ import Hyperlink from "./Hyperlink";
 
 const data = [
   {
+    date: "April 1, 2024",
+    content: (
+      <>
+        I started my internship at IMDEA Software Institute, Madrid working with{" "}
+        <Hyperlink href={"https://alessiomansutti.github.io/"}>
+          Alessio Mansutti
+        </Hyperlink>
+        . Excited for my next 5 months in Madrid!
+      </>
+    ),
+  },
+  {
     date: "December 2, 2023",
     content: (
       <>
         My work on programmatic reinforcement learning was accepted at the
         student research competition at POPL 2024. Read the 3 page abstract
-        summarizing my work <Hyperlink
+        summarizing my work{" "}
+        <Hyperlink
           href={
             "https://github.com/guruprerana/guruprerana.github.io/raw/source/static/popl24src.pdf"
           }
