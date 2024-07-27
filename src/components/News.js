@@ -3,6 +3,21 @@ import Hyperlink from "./Hyperlink";
 
 const data = [
   {
+    date: "June 2, 2024",
+    content: (
+      <>
+        I attended a{" "}
+        <Hyperlink
+          href={
+            "https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/24231"
+          }
+        >
+          Dagstuhl seminar on Stochastic Games
+        </Hyperlink>
+      </>
+    ),
+  },
+  {
     date: "April 1, 2024",
     content: (
       <>
