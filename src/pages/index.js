@@ -32,8 +32,7 @@ const IndexPage = () => {
             ...you can call me <b className="text-primary font-normal">Guru!</b>
           </h2>
           <h2 className="inline text-2xl md:text-3xl text-accent-dark font-medium mt-3">
-            Master's student in Computer Science at École Polytechnique &
-            Research Intern at IMDEA Software Institute, Madrid
+            PhD student at University of Pennsylvania
           </h2>
           <div className="mt-4 flex flex-row justify-center items-center">
             <Hyperlink
@@ -81,11 +80,10 @@ const IndexPage = () => {
         </div>
       </div>
       <p className="text-accent-dark pt-5 text-lg">
-        I am currently a candidate in the Parisian Masters of Research in
-        Computer Science (MPRI) program at École Polytechnique. I previously
-        graduated from École Polytechnique with a bachelor's degree in
-        mathematics and computer science. My set of core research interests is
-        spanned by the following grammar:
+        I am a PhD student at the University of Pennsylvania. I previously
+        graduated from École Polytechnique with bachelor's and master's degrees
+        in mathematics and computer science. My set of core research interests
+        is spanned by the following grammar:
       </p>
       <p className="text-accent-dark text-md overflow-x-auto">
         <Latex displayMode>
@@ -100,7 +98,7 @@ const IndexPage = () => {
         reinforcement learning, game theory, control, cyber-physical systems,
         PL, NLP etc.{" "}
       </p>
-      <p className="text-accent-dark pt-2 text-lg">
+      {/* <p className="text-accent-dark pt-2 text-lg">
         {" "}
         I am currently an intern at IMDEA Software Institute, Madrid working
         with{" "}
@@ -110,8 +108,8 @@ const IndexPage = () => {
         on arithmetic logic. Previously, I worked with{" "}
         <Hyperlink href={"https://games-automata-play.com/"}>
           Nathanaël Fijalkow
-        </Hyperlink>
-        {" "}on worked on synthesizing programmatic policies for (a small subset of)
+        </Hyperlink>{" "}
+        on worked on synthesizing programmatic policies for (a small subset of)
         markov decision processes (MDPs) starting from programmatic
         representations of these MDPs (visualized by some{" "}
         <Hyperlink samePage href={"/smol-strats"}>
@@ -149,11 +147,11 @@ const IndexPage = () => {
         ! Lastly, education is something I am deeply passionate about and a long
         term goal of mine is to work on improving computer science education and
         outreach.
-      </p>
+      </p> */}
       <News />
       <Publications />
       <Research />
-      <h3 className="text-primary text-4xl mt-8">Software Development</h3>
+      {/* <h3 className="text-primary text-4xl mt-8">Software Development</h3>
       <p className="text-accent-dark pt-5 text-lg">
         In my free time I like dabbling in software development.
       </p>
@@ -174,7 +172,7 @@ const IndexPage = () => {
           src="../images/dessinavecanemone.png"
           className="mt-5 w-96"
         />
-      </center>
+      </center> */}
     </Screen>
   );
 };
