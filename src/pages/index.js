@@ -41,7 +41,7 @@ const IndexPage = () => {
             >
               CV
             </Hyperlink>
-            <Hyperlink href="mailto:guruprerana.shabadi@polytechnique.edu">
+            <Hyperlink href="mailto:shabadi@seas.upenn.edu">
               <FontAwesomeIcon
                 icon={faEnvelope}
                 size="2x"
