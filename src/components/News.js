@@ -3,6 +3,14 @@ import Hyperlink from "./Hyperlink";
 
 const data = [
   {
+    date: "August 27, 2024",
+    content: (
+      <>
+        Moved across the Atlantic to start my PhD at the University of Pennsylvania.
+      </>
+    ),
+  },
+  {
     date: "June 2, 2024",
     content: (
       <>

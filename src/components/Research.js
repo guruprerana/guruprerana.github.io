@@ -10,7 +10,7 @@ function Research() {
       <h3 className="text-primary text-4xl pt-8">Research Experience</h3>
       <div>
         <h4 className="text-secondary text-2xl mt-4 hover:opacity-50">
-          Integer linear-exponential programming (April 2024 -)
+          Integer linear-exponential programming (April 2024 - August 2024)
         </h4>
         <p className="text-accent-dark pt-5 text-lg">
           Working with{" "}
