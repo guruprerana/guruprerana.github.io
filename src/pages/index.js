@@ -7,6 +7,7 @@ import {
   faLinkedin,
   faMastodon,
   faTwitter,
+  faBluesky
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Hyperlink from "../components/Hyperlink";
@@ -41,11 +42,18 @@ const IndexPage = () => {
             >
               CV
             </Hyperlink>
-            <Hyperlink href="mailto:shabadi@seas.upenn.edu">
+            <Hyperlink href="mailto:lastname@seas.upenn.edu">
               <FontAwesomeIcon
                 icon={faEnvelope}
                 size="2x"
                 className="hover:opacity-50 ml-2"
+              />
+            </Hyperlink>
+            <Hyperlink href="https://bsky.app/profile/shabadi.bsky.social">
+              <FontAwesomeIcon
+                icon={faBluesky}
+                size="2x"
+                className="ml-2 hover:opacity-50"
               />
             </Hyperlink>
             <Hyperlink href="https://twitter.com/guruprerana">
