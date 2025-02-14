@@ -7,7 +7,7 @@ import {
   faLinkedin,
   faMastodon,
   faTwitter,
-  faBluesky
+  faBluesky,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Hyperlink from "../components/Hyperlink";
@@ -88,10 +88,12 @@ const IndexPage = () => {
         </div>
       </div>
       <p className="text-accent-dark pt-5 text-lg">
-        I am a PhD student at the University of Pennsylvania. I previously
-        graduated from École Polytechnique with bachelor's and master's degrees
-        in mathematics and computer science. My set of core research interests
-        is spanned by the following grammar:
+        I am a PhD student at the University of Pennsylvania where I am advised
+        by{" "}
+        <Hyperlink href="https://www.cis.upenn.edu/~alur/">Rajeev Alur</Hyperlink>
+        . I previously graduated from École Polytechnique with bachelor's and
+        master's degrees in mathematics and computer science. My set of core
+        research interests is spanned by the following grammar:
       </p>
       <p className="text-accent-dark text-md overflow-x-auto">
         <Latex displayMode>
