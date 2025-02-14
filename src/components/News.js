@@ -3,6 +3,14 @@ import Hyperlink from "./Hyperlink";
 
 const data = [
   {
+    date: "February 14, 2025",
+    content: (
+      <>
+        I will be attending AAAI 2025 in Philly and presenting my work on Programmatic Reinforcement Learning at the GenPlan Workshop.
+      </>
+    )
+  },
+  {
     date: "August 27, 2024",
     content: (
       <>
@@ -34,23 +42,6 @@ const data = [
           Alessio Mansutti
         </Hyperlink>
         . Excited for my next 5 months in Madrid!
-      </>
-    ),
-  },
-  {
-    date: "December 2, 2023",
-    content: (
-      <>
-        My work on programmatic reinforcement learning was accepted at the
-        student research competition at POPL 2024. Read the 3 page abstract
-        summarizing my work{" "}
-        <Hyperlink
-          href={
-            "https://github.com/guruprerana/guruprerana.github.io/raw/source/static/popl24src.pdf"
-          }
-        >
-          here.
-        </Hyperlink>
       </>
     ),
   },

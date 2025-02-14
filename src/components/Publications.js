@@ -3,10 +3,10 @@ import Hyperlink from "./Hyperlink";
 
 const data = [
   {
-    name: "Theoretical foundations for programmatic reinforcement learning",
+    name: "Programmatic Reinforcement Learning: Navigating Gridworlds",
     authors: "Guruprerana Shabadi, Nathanaël Fijalkow, Théo Matricon",
     paperLink: "https://arxiv.org/abs/2402.11650",
-    venue: "Preprint",
+    venue: "Generalization in Planning (GenPlan) Workshop, AAAI 2025",
     links: [
       {
         name: "PDF",
@@ -16,25 +16,11 @@ const data = [
     year: 2024
   },
   {
-    name: "Towards programmatic reinforcement learning: the case of deterministic gridworlds",
-    authors: "Guruprerana Shabadi",
-    paperLink:
-      "https://github.com/guruprerana/guruprerana.github.io/raw/source/static/popl24src.pdf",
-    venue: "Student research competition at POPL 2024",
-    links: [
-      {
-        name: "PDF",
-        url: "https://github.com/guruprerana/guruprerana.github.io/raw/source/static/popl24src.pdf",
-      },
-    ],
-    year: 2024,
-  },
-  {
     name: "Static Analysis of Data Transformations in Jupyter Notebooks",
     authors: "Luca Negrini, Guruprerana Shabadi, and Caterina Urban",
     paperLink:
       "https://github.com/guruprerana/guruprerana.github.io/raw/source/static/soap2023.pdf",
-    venue: "At SOAP workshop at PLDI 2023",
+    venue: "SOAP Workshop, PLDI 2023",
     links: [
       {
         name: "PDF",
