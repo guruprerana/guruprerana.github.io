@@ -90,7 +90,9 @@ const IndexPage = () => {
       <p className="text-accent-dark pt-5 text-lg">
         I am a PhD student at the University of Pennsylvania where I am advised
         by{" "}
-        <Hyperlink href="https://www.cis.upenn.edu/~alur/">Rajeev Alur</Hyperlink>
+        <Hyperlink href="https://www.cis.upenn.edu/~alur/">
+          Rajeev Alur
+        </Hyperlink>
         . I previously graduated from École Polytechnique with bachelor's and
         master's degrees in mathematics and computer science. My set of core
         research interests is spanned by the following grammar:
@@ -98,7 +100,7 @@ const IndexPage = () => {
       <p className="text-accent-dark text-md overflow-x-auto">
         <Latex displayMode>
           {
-            "$$ \\Phi \\Coloneqq \\hspace{0.2cm} \\varphi \\hspace{0.2cm} \\textit{    for    } \\hspace{0.2cm} \\varphi \\hspace{0.2cm} $$ $$ \\\\ \\varphi \\Coloneqq \\text{ program synthesis } \\mid \\text{ verification }  \\mid \\text{ AI } \\mid \\text{ automation }$$"
+            "$$ \\Phi \\Coloneqq \\hspace{0.2cm} \\varphi \\hspace{0.2cm} \\textit{    for    } \\hspace{0.2cm} \\varphi \\hspace{0.2cm} $$ $$ \\\\ \\varphi \\Coloneqq \\text{ synthesis } \\mid \\text{ verification }  \\mid \\text{ AI } \\mid \\text{ automation }$$"
           }
         </Latex>
       </p>
@@ -107,6 +109,39 @@ const IndexPage = () => {
         these domains including (but not restricted to) logic, model checking,
         reinforcement learning, game theory, control, cyber-physical systems,
         PL, NLP etc.{" "}
+      </p>
+      <p className="text-accent-dark pt-1 text-lg">
+        During my undergrad and masters, I had the honor and pleasure of working
+        with:{" "}
+        <Hyperlink href={"https://alessiomansutti.github.io/"}>
+          Alessio Mansutti
+        </Hyperlink>{" "}
+        on optimization in integer linear-exponential programs at the IMDEA
+        Software Institute in Madrid, Spain;{" "}
+        <Hyperlink href={"https://games-automata-play.com/"}>
+          Nathanaël Fijalkow
+        </Hyperlink>{" "}
+        on programmatic reinforcement learning at the University of Warsaw
+        <Hyperlink href="https://arxiv.org/abs/2402.11650" className="ml-1">
+          (GenPlan'25)
+        </Hyperlink>
+        ; and{" "}
+        <Hyperlink href="https://caterinaurban.github.io/">
+          Caterina Urban
+        </Hyperlink>{" "}
+        on building an abstract interpretation based tool to verify data science
+        Jupyter notebooks{" "}
+        <Hyperlink
+          href="https://github.com/guruprerana/guruprerana.github.io/raw/source/static/soap2023.pdf"
+          className="ml-1"
+        >
+          (SOAP'23)
+        </Hyperlink>
+        at ENS Ulm, Paris. And I started my journey in the world of formal
+        methods research working with{" "}
+        <Hyperlink href="http://www.sergiomover.eu/">Sergio Mover</Hyperlink> on
+        handling communication delays arising in cyber-physical systems at Ecole
+        Polytechnique, Paris.
       </p>
       {/* <p className="text-accent-dark pt-2 text-lg">
         {" "}
@@ -160,7 +195,7 @@ const IndexPage = () => {
       </p> */}
       <News />
       <Publications />
-      <Research />
+      {/* <Research /> */}
       {/* <h3 className="text-primary text-4xl mt-8">Software Development</h3>
       <p className="text-accent-dark pt-5 text-lg">
         In my free time I like dabbling in software development.

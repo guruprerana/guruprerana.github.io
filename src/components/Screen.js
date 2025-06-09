@@ -11,7 +11,7 @@ function Screen({ children, title = "Guru Shabadi", className }) {
           rel="stylesheet"
         />
       </Helmet>
-      <div className={`container max-w-2xl mx-auto px-5 ${className}`}>
+      <div className={`container max-w-2xl mx-auto px-5 pb-5 ${className}`}>
         {children}
       </div>
     </main>

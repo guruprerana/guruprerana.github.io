@@ -3,6 +3,19 @@ import Hyperlink from "./Hyperlink";
 
 const data = [
   {
+    name: "Composing Agents to Minimize Worst-case Risk",
+    authors: "Guruprerana Shabadi and Rajeev Alur",
+    paperLink: "https://arxiv.org/abs/2506.04632",
+    venue: "Preprint",
+    links: [
+      {
+        name: "PDF",
+        url: "https://arxiv.org/abs/2506.04632"
+      }
+    ],
+    year: 2025
+  },
+  {
     name: "Programmatic Reinforcement Learning: Navigating Gridworlds",
     authors: "Guruprerana Shabadi, Nathanaël Fijalkow, Théo Matricon",
     paperLink: "https://arxiv.org/abs/2402.11650",
