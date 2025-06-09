@@ -121,26 +121,26 @@ const IndexPage = () => {
         <Hyperlink href={"https://games-automata-play.com/"}>
           Nathanaël Fijalkow
         </Hyperlink>{" "}
-        on programmatic reinforcement learning at the University of Warsaw
+        on programmatic reinforcement learning{" "}
         <Hyperlink href="https://arxiv.org/abs/2402.11650" className="ml-1">
           (GenPlan'25)
-        </Hyperlink>
-        ; and{" "}
+        </Hyperlink>{" "}
+        at the University of Warsaw; and{" "}
         <Hyperlink href="https://caterinaurban.github.io/">
           Caterina Urban
         </Hyperlink>{" "}
         on building an abstract interpretation based tool to verify data science
-        Jupyter notebooks{" "}
+        Jupyter notebooks
         <Hyperlink
           href="https://github.com/guruprerana/guruprerana.github.io/raw/source/static/soap2023.pdf"
           className="ml-1"
         >
           (SOAP'23)
-        </Hyperlink>
+        </Hyperlink>{" "}
         at ENS Ulm, Paris. And I started my journey in the world of formal
         methods research working with{" "}
         <Hyperlink href="http://www.sergiomover.eu/">Sergio Mover</Hyperlink> on
-        handling communication delays arising in cyber-physical systems at Ecole
+        handling communication delays arising in cyber-physical systems at École
         Polytechnique, Paris.
       </p>
       {/* <p className="text-accent-dark pt-2 text-lg">
