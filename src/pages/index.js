@@ -108,7 +108,7 @@ const IndexPage = () => {
         As a result, I am also interested in all topics that play a role in
         these domains including (but not restricted to) logic, model checking,
         reinforcement learning, game theory, control, cyber-physical systems,
-        PL, NLP etc.{" "}
+        PL, Bayesian optimization, and a bunch more!{" "}
       </p>
       <p className="text-accent-dark pt-1 text-lg">
         During my undergrad and masters, I had the honor and pleasure of working
@@ -117,7 +117,11 @@ const IndexPage = () => {
           Alessio Mansutti
         </Hyperlink>{" "}
         on optimization in integer linear-exponential programs at the IMDEA
-        Software Institute in Madrid, Spain;{" "}
+        Software Institute in Madrid, Spain
+        <Hyperlink href="#" className="ml-1">
+          (SODA'26)
+        </Hyperlink>
+        ;{" "}
         <Hyperlink href={"https://games-automata-play.com/"}>
           Nathanaël Fijalkow
         </Hyperlink>{" "}

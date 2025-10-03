@@ -3,7 +3,15 @@ import Hyperlink from "./Hyperlink";
 
 const data = [
   {
-    name: "Composing Agents to Minimize Worst-case Risk",
+    name: "Optimization Modulo Integer Linear-Exponential Programs",
+    authors: "Alessio Mansutti, Guruprerana Shabadi, S Hitarth",
+    paperLink: "#",
+    venue: "To appear in SODA 2026",
+    links: [],
+    year: 2025
+  },
+  {
+    name: "Risk-Sensitive Agent Compositions",
     authors: "Guruprerana Shabadi and Rajeev Alur",
     paperLink: "https://arxiv.org/abs/2506.04632",
     venue: "Preprint",
