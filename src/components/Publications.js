@@ -6,8 +6,13 @@ const data = [
     name: "Optimization Modulo Integer Linear-Exponential Programs",
     authors: "Alessio Mansutti, Guruprerana Shabadi, S Hitarth",
     paperLink: "#",
-    venue: "To appear in SODA 2026",
-    links: [],
+    venue: "SODA 2026",
+    links: [
+      {
+        name: "PDF",
+        url: "http://arxiv.org/abs/2510.14550"
+      }
+    ],
     year: 2025
   },
   {
