@@ -4,8 +4,8 @@ import Hyperlink from "./Hyperlink";
 const data = [
   {
     name: "Optimization Modulo Integer Linear-Exponential Programs",
-    authors: "Alessio Mansutti, Guruprerana Shabadi, S Hitarth",
-    paperLink: "#",
+    authors: "S Hitarth, Alessio Mansutti, Guruprerana Shabadi",
+    paperLink: "http://arxiv.org/abs/2510.14550",
     venue: "SODA 2026",
     links: [
       {
