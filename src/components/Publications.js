@@ -3,19 +3,6 @@ import Hyperlink from "./Hyperlink";
 
 const data = [
   {
-    name: "Optimization Modulo Integer Linear-Exponential Programs",
-    authors: "S Hitarth, Alessio Mansutti, Guruprerana Shabadi",
-    paperLink: "http://arxiv.org/abs/2510.14550",
-    venue: "SODA 2026",
-    links: [
-      {
-        name: "PDF",
-        url: "http://arxiv.org/abs/2510.14550"
-      }
-    ],
-    year: 2025
-  },
-  {
     name: "Risk-Sensitive Agent Compositions",
     authors: "Guruprerana Shabadi and Rajeev Alur",
     paperLink: "https://arxiv.org/abs/2506.04632",
@@ -24,6 +11,19 @@ const data = [
       {
         name: "PDF",
         url: "https://arxiv.org/abs/2506.04632"
+      }
+    ],
+    year: 2025
+  },
+  {
+    name: "Optimization Modulo Integer Linear-Exponential Programs",
+    authors: "S Hitarth, Alessio Mansutti, Guruprerana Shabadi",
+    paperLink: "http://arxiv.org/abs/2510.14550",
+    venue: "SODA 2026",
+    links: [
+      {
+        name: "PDF",
+        url: "http://arxiv.org/abs/2510.14550"
       }
     ],
     year: 2025
