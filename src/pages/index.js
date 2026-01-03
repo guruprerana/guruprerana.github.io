@@ -94,7 +94,13 @@ const IndexPage = () => {
           Rajeev Alur
         </Hyperlink>
         . I previously graduated from École Polytechnique with bachelor's and
-        master's degrees in mathematics and computer science. My set of core
+        master's degrees in mathematics and computer science. My current
+        research interests revolve broadly around using symbolic abstractions
+        and (Bayesian) probabilistic reasoning to guide machine learning system.
+        The applications areas that I work with include robotics and natural
+        language reasoning.
+      </p>
+      {/* My set of core
         research interests is spanned by the following grammar:
       </p>
       <p className="text-accent-dark text-md overflow-x-auto">
@@ -103,13 +109,7 @@ const IndexPage = () => {
             "$$ \\Phi \\Coloneqq \\hspace{0.2cm} \\varphi \\hspace{0.2cm} \\textit{    for    } \\hspace{0.2cm} \\varphi \\hspace{0.2cm} $$ $$ \\\\ \\varphi \\Coloneqq \\text{ synthesis } \\mid \\text{ verification }  \\mid \\text{ AI } \\mid \\text{ automation }$$"
           }
         </Latex>
-      </p>
-      <p className="text-accent-dark pt-1 text-lg">
-        As a result, I am also interested in all topics that play a role in
-        these domains including (but not restricted to) logic, model checking,
-        reinforcement learning, game theory, control, cyber-physical systems,
-        PL, Bayesian optimization, and a bunch more!{" "}
-      </p>
+      </p> */}
       <p className="text-accent-dark pt-1 text-lg">
         During my undergrad and masters, I had the honor and pleasure of working
         with:{" "}
