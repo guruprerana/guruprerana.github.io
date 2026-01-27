@@ -3,6 +3,14 @@ import Hyperlink from "./Hyperlink";
 
 const data = [
   {
+    date: "January 26, 2026",
+    content: (
+      <>
+        <Hyperlink href={"https://arxiv.org/abs/2506.04632"}>Risk-Sensitive Agent Compositions</Hyperlink> was accepted to ICLR26. See you in Rio!
+      </>
+    )
+  },
+  {
     date: "February 14, 2025",
     content: (
       <>

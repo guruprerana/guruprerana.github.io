@@ -6,27 +6,28 @@ const data = [
     name: "Risk-Sensitive Agent Compositions",
     authors: "Guruprerana Shabadi and Rajeev Alur",
     paperLink: "https://arxiv.org/abs/2506.04632",
-    venue: "Preprint",
+    venue: "ICLR 2026",
     links: [
       {
-        name: "PDF",
-        url: "https://arxiv.org/abs/2506.04632"
-      }
+        name: "arxiv",
+        url: "https://arxiv.org/abs/2506.04632",
+      },
     ],
-    year: 2025
+    year: 2026,
   },
   {
     name: "Optimization Modulo Integer Linear-Exponential Programs",
-    authors: "S Hitarth, Alessio Mansutti, Guruprerana Shabadi",
+    authors:
+      "S Hitarth, Alessio Mansutti, Guruprerana Shabadi (alphabetical order)",
     paperLink: "http://arxiv.org/abs/2510.14550",
     venue: "SODA 2026",
     links: [
       {
-        name: "PDF",
-        url: "http://arxiv.org/abs/2510.14550"
-      }
+        name: "arxiv",
+        url: "http://arxiv.org/abs/2510.14550",
+      },
     ],
-    year: 2025
+    year: 2026,
   },
   {
     name: "Programmatic Reinforcement Learning: Navigating Gridworlds",
@@ -35,11 +36,11 @@ const data = [
     venue: "Generalization in Planning (GenPlan) Workshop, AAAI 2025",
     links: [
       {
-        name: "PDF",
-        url: "https://arxiv.org/abs/2402.11650"
-      }
+        name: "arxiv",
+        url: "https://arxiv.org/abs/2402.11650",
+      },
     ],
-    year: 2024
+    year: 2025,
   },
   {
     name: "Static Analysis of Data Transformations in Jupyter Notebooks",
