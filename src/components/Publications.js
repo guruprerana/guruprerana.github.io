@@ -3,6 +3,32 @@ import Hyperlink from "./Hyperlink";
 
 const data = [
   {
+    name: "Do We Need Frontier Models to Verify Mathematical Proofs?",
+    authors: "*Aaditya Naik, *Guruprerana Shabadi, Rajeev Alur, Mayur Naik",
+    paperLink: "https://arxiv.org/abs/2604.02450",
+    venue: "Preprint",
+    links: [
+      {
+        name: "arxiv",
+        url: "https://arxiv.org/abs/2604.02450",
+      },
+    ],
+    year: 2026,
+  },
+  {
+    name: "Auction-Based Online Policy Adaptation for Evolving Objectives",
+    authors: "Guruprerana Shabadi and Kaushik Mallik",
+    paperLink: "https://arxiv.org/abs/2604.02151",
+    venue: "Preprint",
+    links: [
+      {
+        name: "arxiv",
+        url: "https://arxiv.org/abs/2604.02151",
+      },
+    ],
+    year: 2026,
+  },
+  {
     name: "Risk-Sensitive Agent Compositions",
     authors: "Guruprerana Shabadi and Rajeev Alur",
     paperLink: "https://arxiv.org/abs/2506.04632",
@@ -44,7 +70,7 @@ const data = [
   },
   {
     name: "Static Analysis of Data Transformations in Jupyter Notebooks",
-    authors: "Luca Negrini, Guruprerana Shabadi, and Caterina Urban",
+    authors: "Luca Negrini, Guruprerana Shabadi, Caterina Urban",
     paperLink:
       "https://github.com/guruprerana/guruprerana.github.io/raw/source/static/soap2023.pdf",
     venue: "SOAP Workshop, PLDI 2023",
