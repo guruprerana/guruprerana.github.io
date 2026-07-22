@@ -11,7 +11,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Hyperlink from "../components/Hyperlink";
-import News from "../components/News";
+// import News from "../components/News";
 import Research from "../components/Research";
 import Publications from "../components/Publications";
 import Screen from "../components/Screen";
@@ -95,9 +95,9 @@ const IndexPage = () => {
         </Hyperlink>
         . I previously graduated from École Polytechnique with bachelor's and
         master's degrees in mathematics and computer science. My current
-        research interests revolve broadly around using symbolic abstractions
-        and (Bayesian) probabilistic reasoning to guide machine learning system.
-        The applications areas that I work with include robotics and natural
+        research interests revolve broadly around mechanism design and
+        probabilistic verification for modern multi-agent systems. The
+        applications areas that I work with include robotics and natural
         language reasoning.
       </p>
       {/* My set of core
@@ -197,7 +197,7 @@ const IndexPage = () => {
         term goal of mine is to work on improving computer science education and
         outreach.
       </p> */}
-      <News />
+      {/* <News /> */}
       <Publications />
       {/* <Research /> */}
       {/* <h3 className="text-primary text-4xl mt-8">Software Development</h3>
