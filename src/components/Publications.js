@@ -1,112 +1,112 @@
 import * as React from "react";
 import Hyperlink from "./Hyperlink";
 
-const data = [
+const sections = [
   {
-    name: "Do We Need Frontier Models to Verify Mathematical Proofs?",
-    authors: "*Aaditya Naik, *Guruprerana Shabadi, Rajeev Alur, Mayur Naik",
-    paperLink: "https://arxiv.org/abs/2604.02450",
-    venue: "Preprint",
-    links: [
+    heading: "Publications",
+    items: [
       {
-        name: "arxiv",
-        url: "https://arxiv.org/abs/2604.02450",
+        name: "Do We Need Frontier Models to Verify Mathematical Proofs?",
+        authors: (
+          <>
+            Aaditya Naik<sup>*</sup>,{" "}
+            <strong>
+              Guruprerana Shabadi<sup>*</sup>
+            </strong>
+            , Rajeev Alur, Mayur Naik
+          </>
+        ),
+        venue: "Third Conference on Language Modeling (COLM), 2026",
+      },
+      {
+        name: "Risk-Sensitive Agent Compositions",
+        authors: (
+          <>
+            <strong>Guruprerana Shabadi</strong>, Rajeev Alur
+          </>
+        ),
+        paperLink: "https://arxiv.org/abs/2506.04632",
+        venue:
+          "International Conference on Learning Representations (ICLR), 2026",
+      },
+      {
+        name: "Optimization Modulo Integer Linear-Exponential Programs",
+        authors: (
+          <>
+            S Hitarth, Alessio Mansutti, <strong>Guruprerana Shabadi</strong>
+          </>
+        ),
+        venue: "ACM-SIAM Symposium on Discrete Algorithms (SODA), 2026",
       },
     ],
-    year: 2026,
   },
   {
-    name: "Auction-Based Online Policy Adaptation for Evolving Objectives",
-    authors: "Guruprerana Shabadi and Kaushik Mallik",
-    paperLink: "https://arxiv.org/abs/2604.02151",
-    venue: "Preprint",
-    links: [
+    heading: "Preprints",
+    items: [
       {
-        name: "arxiv",
-        url: "https://arxiv.org/abs/2604.02151",
+        name: "Auction-Based Online Policy Adaptation for Evolving Objectives",
+        authors: (
+          <>
+            <strong>Guruprerana Shabadi</strong>, Kaushik Mallik
+          </>
+        ),
+        paperLink: "https://arxiv.org/abs/2604.02151",
+        venue: "Preprint",
       },
     ],
-    year: 2026,
   },
   {
-    name: "Risk-Sensitive Agent Compositions",
-    authors: "Guruprerana Shabadi and Rajeev Alur",
-    paperLink: "https://arxiv.org/abs/2506.04632",
-    venue: "ICLR 2026",
-    links: [
+    heading: "Workshop Papers",
+    items: [
       {
-        name: "arxiv",
-        url: "https://arxiv.org/abs/2506.04632",
+        name: "Programmatic Reinforcement Learning: Navigating Gridworlds",
+        authors: (
+          <>
+            <strong>Guruprerana Shabadi</strong>, Nathanaël Fijalkow, Théo
+            Matricon
+          </>
+        ),
+        venue: "Generalization in Planning Workshop, AAAI 2025",
+      },
+      {
+        name: "Static Analysis of Data Transformations in Jupyter Notebooks",
+        authors: (
+          <>
+            Luca Negrini, <strong>Guruprerana Shabadi</strong>, Caterina Urban
+          </>
+        ),
+        venue:
+          "SOAP, ACM SIGPLAN Conference on Programming Language Design and Implementation, 2023",
       },
     ],
-    year: 2026,
-  },
-  {
-    name: "Optimization Modulo Integer Linear-Exponential Programs",
-    authors:
-      "S Hitarth, Alessio Mansutti, Guruprerana Shabadi (alphabetical order)",
-    paperLink: "http://arxiv.org/abs/2510.14550",
-    venue: "SODA 2026",
-    links: [
-      {
-        name: "arxiv",
-        url: "http://arxiv.org/abs/2510.14550",
-      },
-    ],
-    year: 2026,
-  },
-  {
-    name: "Programmatic Reinforcement Learning: Navigating Gridworlds",
-    authors: "Guruprerana Shabadi, Nathanaël Fijalkow, Théo Matricon",
-    paperLink: "https://arxiv.org/abs/2402.11650",
-    venue: "Generalization in Planning (GenPlan) Workshop, AAAI 2025",
-    links: [
-      {
-        name: "arxiv",
-        url: "https://arxiv.org/abs/2402.11650",
-      },
-    ],
-    year: 2025,
-  },
-  {
-    name: "Static Analysis of Data Transformations in Jupyter Notebooks",
-    authors: "Luca Negrini, Guruprerana Shabadi, Caterina Urban",
-    paperLink:
-      "https://github.com/guruprerana/guruprerana.github.io/raw/source/static/soap2023.pdf",
-    venue: "SOAP Workshop, PLDI 2023",
-    links: [
-      {
-        name: "PDF",
-        url: "https://github.com/guruprerana/guruprerana.github.io/raw/source/static/soap2023.pdf",
-      },
-    ],
-    year: 2023,
   },
 ];
 
 function Publications() {
   return (
     <>
-      <h3 className="text-primary text-4xl mt-8">Publications</h3>
-      <div className="pr-2 mt-3">
-        <ul className="list-inside text-lg text-accent-dark">
-          {data.map((item) => (
-            <li>
-              {item.paperLink ? (
-                <Hyperlink href={item.paperLink} className="text-secondary">
-                  {item.name}.
-                </Hyperlink>
-              ) : (
-                <p className="text-secondary inline">{item.name}.</p>
-              )}{" "}
-              {item.authors}. <i>{item.venue}.</i>
-              {item.links.map((link) => (
-                <Hyperlink href={link.url}> [{link.name}]</Hyperlink>
+      {sections.map((section) => (
+        <React.Fragment key={section.heading}>
+          <h3 className="text-primary text-4xl mt-8">{section.heading}</h3>
+          <div className="pr-2 mt-3">
+            <ul className="list-inside text-lg text-accent-dark">
+              {section.items.map((item) => (
+                <li key={item.name}>
+                  {item.authors}.{" "}
+                  {item.paperLink ? (
+                    <Hyperlink href={item.paperLink} className="text-secondary">
+                      {item.name}
+                    </Hyperlink>
+                  ) : (
+                    <span className="text-secondary">{item.name}</span>
+                  )}
+                  . <i>{item.venue}.</i>
+                </li>
               ))}
-            </li>
-          ))}
-        </ul>
-      </div>
+            </ul>
+          </div>
+        </React.Fragment>
+      ))}
     </>
   );
 }
