@@ -16,6 +16,7 @@ const sections = [
             , Rajeev Alur, Mayur Naik
           </>
         ),
+        paperLink: "https://arxiv.org/abs/2604.02450",
         venue: "Third Conference on Language Modeling (COLM), 2026",
       },
       {
@@ -33,9 +34,13 @@ const sections = [
         name: "Optimization Modulo Integer Linear-Exponential Programs",
         authors: (
           <>
-            S Hitarth, Alessio Mansutti, <strong>Guruprerana Shabadi</strong>
+            S Hitarth<sup>*</sup>, Alessio Mansutti<sup>*</sup>,{" "}
+            <strong>
+              Guruprerana Shabadi<sup>*</sup>
+            </strong>
           </>
         ),
+        paperLink: "https://arxiv.org/abs/2510.14550",
         venue: "ACM-SIAM Symposium on Discrete Algorithms (SODA), 2026",
       },
     ],
@@ -66,6 +71,7 @@ const sections = [
             Matricon
           </>
         ),
+        paperLink: "https://arxiv.org/abs/2402.11650",
         venue: "Generalization in Planning Workshop, AAAI 2025",
       },
       {
@@ -75,6 +81,7 @@ const sections = [
             Luca Negrini, <strong>Guruprerana Shabadi</strong>, Caterina Urban
           </>
         ),
+        paperLink: "https://dl.acm.org/doi/10.1145/3589250.3596145",
         venue:
           "SOAP, ACM SIGPLAN Conference on Programming Language Design and Implementation, 2023",
       },
