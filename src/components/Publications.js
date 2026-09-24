@@ -6,6 +6,17 @@ const sections = [
     heading: "Publications",
     items: [
       {
+        name: "Auction-Based Online Policy Adaptation for Evolving Objectives",
+        authors: (
+          <>
+            <strong>Guruprerana Shabadi</strong>, Kaushik Mallik
+          </>
+        ),
+        paperLink: "https://arxiv.org/abs/2604.02151",
+        venue:
+          "Conference on Neural Information Processing Systems (NeurIPS), 2026",
+      },
+      {
         name: "Do We Need Frontier Models to Verify Mathematical Proofs?",
         authors: (
           <>
@@ -42,21 +53,6 @@ const sections = [
         ),
         paperLink: "https://arxiv.org/abs/2510.14550",
         venue: "ACM-SIAM Symposium on Discrete Algorithms (SODA), 2026",
-      },
-    ],
-  },
-  {
-    heading: "Preprints",
-    items: [
-      {
-        name: "Auction-Based Online Policy Adaptation for Evolving Objectives",
-        authors: (
-          <>
-            <strong>Guruprerana Shabadi</strong>, Kaushik Mallik
-          </>
-        ),
-        paperLink: "https://arxiv.org/abs/2604.02151",
-        venue: "Preprint",
       },
     ],
   },
