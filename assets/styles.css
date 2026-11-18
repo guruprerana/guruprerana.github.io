@@ -329,6 +329,86 @@ footer p {
   font-size: 0.88rem;
 }
 
+.post-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 0.65rem;
+}
+
+.post-example {
+  padding: clamp(1rem, 4vw, 1.75rem);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--coral);
+  border-radius: 0.85rem;
+}
+
+.post-example h2 {
+  margin-bottom: 1rem;
+  font-size: clamp(1.45rem, 4vw, 1.9rem);
+  line-height: 1.15;
+}
+
+.post-example-comparison {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.post-example-comparison div {
+  padding: 0.7rem 0.9rem;
+  background: var(--background);
+  border: 1px solid var(--line);
+  border-inline-start: 3px solid var(--green);
+  border-radius: 0.4rem;
+}
+
+.post-example-comparison div + div {
+  border-inline-start-color: var(--coral);
+}
+
+.post-example-comparison dt {
+  margin-bottom: 0.25rem;
+  font-weight: 700;
+}
+
+.post-example-comparison dd {
+  margin: 0;
+}
+
+.post-example-result {
+  margin-bottom: 0;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.95rem;
+}
+
+.post-results {
+  margin-top: 2.75rem;
+}
+
+.post-results h2 {
+  margin-bottom: 1rem;
+}
+
+.post-results li + li {
+  margin-top: 0.5rem;
+}
+
+.post-results-figures {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+
+.post-results-figures figure {
+  margin: 0;
+}
+
 .abstract {
   padding: clamp(1.3rem, 4vw, 2rem);
   background: var(--paper);
